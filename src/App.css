@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+}
+.header {
+  padding: 1% 0.5%;
+  display: flex;
+  background-color: #24292f;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-bottom: 3%;
+}
+.headLeft {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 75%;
+}
+.headLeft input {
+  outline: none;
+  background-color: #24292f;
+  border: 1px solid #57606a;
+  color: white;
+  border-radius: 6px;
+  padding: 3px 6px;
+  font-size: 16px;
+  width: 40%;
+}
+.headLeft span {
+  font-weight: 800;
+}
+.headLeft img {
+  width: 30px;
+}
+.headRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headRight img {
+  width: 30px;
+  border-radius: 50%;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.cc {
+  width: 80%;
+  margin: auto;
+  min-height: 78vh;
+}
+.cc2 {
+  width: 100%;
+  min-height: 78vh;
+}
+.userCard {
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 2%;
+}
+
+.userCard img {
+  width: 18%;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.userDetails {
+  width: 75%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.userName {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.follow {
+  width: 80%;
+  justify-content: space-between;
+  display: flex;
+}
+
+.homeHead {
+  padding: 5px 1% 10px 1%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items:flex-start;
+}
+.basicDetails{
+  padding-top: 3%;
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.basicDetails img{
+  width: 100%;
+  border-radius: 50%;
+  padding: 8px;
+  background: white !important;
+  box-shadow: 0 0 0 1px rgba(27, 31, 36, 0.15);
+}
+.name{
+  padding: 5% 5% 2%;
+  font-size: 20px;
+  font-weight: 800;
+}
+.user{
+  padding: 2% 5%;
+  font-size: 18px;
+  color: #6e7781;
+}
+.bio{
+  padding: 2% 5%;
+  font-size: 15px;
+}
+.flll{
+  padding: 2% 5%;
+  font-size: 15px;
+  color: #57606a;
+}
+.address{
+  padding: 2% 5%;
+  font-size: 15px;
+  color: #2c2d2e;
+}
+.btnDiv{
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: 2% auto;
+}
+.otherDetails{
+  width: 70%;
+}
+.detailsCard{
+  width: 95%;
+  margin: 2% auto;
+}
+.userIntro{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  text-align: justify !important;
+}
+.userDescription{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  text-align: justify !important;
+  color: #6e7781;
+}
+.popularRepo{
+  margin: 3% 0 !important;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.popularRepoHead{
+  font-size: 18px;
+  font-weight: 700;
+}
+.visibility{
+color: #6e7781;
+font-size: 16px;
+border: 2px solid;
+padding: 2px 5px;
+border-radius: 18px;
+text-decoration: none !important;
+}
+.dateOver{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 2% 0 0;
+  color: #6e7781;
+}
+.footerDiv {
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+  color: #6e7781 !important;
+  cursor: pointer;
+  margin: 10% 0;
+}
+.footerDiv svg {
+  color: #6e7781 !important;
+}
+

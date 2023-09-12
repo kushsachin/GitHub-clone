@@ -1,0 +1,17 @@
+import { createStore } from "redux";
+import viewUser from "./reducers/gitUser";
+const store=createStore(viewUser);
+export default store;
+
+
+const MapStateToProps = (state) => {
+    console.log(state)
+    return {
+      state
+    }
+  }
+  const MapDispatchToProps = (dispatch) => {
+    return {
+      userDisplay: (b) => dispatch(getUser(b))
+    }
+  }
