@@ -18,13 +18,13 @@ function UserProfile(props) {
     if (userName1 !== "") {
       fetch(`https://api.github.com/users/${userName1}`, {
         headers: {
-          Authorization: `Bearer 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`
-        }
+          Authorization: `Bearer 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`,
+        },
       })
         .then((res) => res.json())
         .then((user) => {
           setUserData(user);
-        })
+        });
     } else {
       if (sessionStorage.getItem("userName") === null) {
         homeNavigate('/')

@@ -6,13 +6,13 @@ export default function Repositories({ userData }) {
   useEffect(() => {
     fetch(`https://api.github.com/users/${userData.login}/repos`, {
       headers: {
-        Authorization: `Bearer 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`
-      }
+        Authorization: `Bearer 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`,
+      },
     })
       .then((res) => res.json())
       .then((data) => {
         setPolularRepo(data);
-      })
+      });
   }, [userData])
   var visibility = <span className='visibility'>Public</span>
   return (

@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { connect } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { getUser } from '../Actions/userAction'
 
 function Header(props) {
-  var [user, setUser] = useState("")
+  var [user, setUser] = useState("kushSachin");
 
   var homeNavigate = useNavigate();
   var handleSearch = (event) => {
@@ -15,6 +15,10 @@ function Header(props) {
     }
   }
 
+  useEffect(() => {
+    props.userDisplay("kushSachin");
+    sessionStorage.setItem("userName", "kushSachin");
+  }, [])
   return (
     <div className='header'>
       <div className='headLeft'>
